@@ -116,11 +116,11 @@ The dataset was validated using a unified 5-fold stratified cross-validation pro
   <img src="figures/fig5_per_family_f1.png" width="340" alt="Per-Family F1"/>
 </p>
 <p align="center">
-  <img src="figures/fig11_tsne.png" width="340" alt="t-SNE Projection"/>
+  <img src="figures/fig12_umap.png" width="340" alt="t-SNE Projection"/>
   <img src="figures/fig13_radar.png" width="340" alt="Behavioral Radar"/>
 </p>
 
-*From left to right: Binary confusion matrix (XGBoost), per-family F1 scores (LightGBM), t-SNE feature space projection, and behavioral domain fingerprints per family.*
+*From left to right: Binary confusion matrix (XGBoost), per-family F1 scores (LightGBM), UMAP, and behavioral domain fingerprints per family.*
 
 ---
 
