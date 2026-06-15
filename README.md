@@ -112,15 +112,26 @@ The dataset was validated using a unified 5-fold stratified cross-validation pro
 ## Selected Figures
 
 <p align="center">
+  <img src="figures/Rande-Workflow.jpg" width="340" alt="RanDe Workflow"/>
   <img src="figures/fig1_binary_cm.png" width="340" alt="Binary Confusion Matrix"/>
-  <img src="figures/fig5_per_family_f1.png" width="340" alt="Per-Family F1"/>
 </p>
+
 <p align="center">
-  <img src="figures/fig12_umap.png" width="340" alt="t-SNE Projection"/>
+  <img src="figures/fig5_per_family_f1.png" width="340" alt="Per-Family F1 Scores"/>
+  <img src="figures/fig10_learning_curve_mc.png" width="340" alt="Learning Curve"/>
+</p>
+
+<p align="center">
+  <img src="figures/fig12_umap.png" width="340" alt="UMAP Projection"/>
   <img src="figures/fig13_radar.png" width="340" alt="Behavioral Radar"/>
 </p>
 
-*From left to right: Binary confusion matrix (XGBoost), per-family F1 scores (LightGBM), UMAP, and behavioral domain fingerprints per family.*
+<p align="center">
+  <img src="figures/fig14_mc_bar.png" width="340" alt="Monte Carlo Bar Plot"/>
+  <img src="figures/fig15_group_ablation.png" width="340" alt="Feature-Domain Ablation"/>
+</p>
+
+*From left to right: RanDe workflow, binary confusion matrix, per-family F1 scores, learning curve, UMAP projection, behavioral-domain radar, Monte Carlo comparison, and feature-domain ablation.*
 
 ---
 
@@ -129,15 +140,19 @@ The dataset was validated using a unified 5-fold stratified cross-validation pro
 ```
 RanDe-W11/
 ├── dataset/
-│   ├── sample_preview.csv     # 10-row schema preview (1 benign + 9 families)
-│   └── FEATURE_GUIDE.md       # Full feature domain explanation and column rationale
-├── figures/                   # Selected validation figures
+│   ├── sample_preview.csv          # 10-row schema preview (1 benign + 9 families)
+│   └── FEATURE_GUIDE.md            # Full feature-domain explanation and column rationale
+├── figures/                        # Selected validation figures
+│   ├── Rande-Workflow.jpg
 │   ├── fig1_binary_cm.png
 │   ├── fig5_per_family_f1.png
-│   ├── fig11_tsne.png
-│   └── fig13_radar.png
+│   ├── fig10_learning_curve_mc.png
+│   ├── fig12_umap.png
+│   ├── fig13_radar.png
+│   ├── fig14_mc_bar.png
+│   └── fig15_group_ablation.png
 ├── notebook/
-│   └── RanDe_W11_demo.ipynb   # Demo notebook (3 models, binary classification)
+│   └── RanDe_W11_demo.ipynb        # Demo notebook: 3 models for binary classification
 ├── LICENSE
 ├── CITATION.cff
 └── README.md
