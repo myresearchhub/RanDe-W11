@@ -178,7 +178,7 @@ If you use RanDe-W11 in your research, please cite:
   author  = {PLACEHOLDER_AUTHOR},
   journal = {PLACEHOLDER_VENUE},
   year    = {2025},
-  note    = {Dataset available at: https://github.com/PLACEHOLDER_USERNAME/RanDe-W11}
+  note    = {Dataset available at: [FullDataset_Upon_Request/RanDe-W11](https://drive.google.com/drive/folders/1lEmZYgFk43Md_K1tdinoCADX-3XHLIVt?usp=sharing)}
 }
 ```
 
