@@ -175,7 +175,7 @@ The file [`dataset/sample_preview.csv`](dataset/sample_preview.csv) contains 10 
 If you use RanDe-W11 in your research, please cite:
 
 ```bibtex
-@article{PLACEHOLDER_AUTHOR_2025_rande_w11,
+@article{Jannatul Ferdous_2026_rande_w11,
   title   = {RanDe-W11: A Behavioral Dataset for Windows 11 Ransomware Detection and Family Classification},
   author  = {Jannatul Ferdous, Rafiqul Islam and Md Zahidul Islam},
   journal = {IEEE Open Journal of the Computer Society},
