@@ -3,7 +3,7 @@
 <!-- Badges — fill in once repo/paper links are live -->
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
 ![Samples](https://img.shields.io/badge/Samples-2%2C000-blue)
-![Families](https://img.shields.io/badge/Families-30-red)
+![Families](https://img.shields.io/badge/Families-31-red)
 ![Features](https://img.shields.io/badge/Features-103-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2011-informational)
 <!-- ![Paper](https://img.shields.io/badge/Paper-IEEE%20Access-orange) — add when published -->
