@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "RanDe-W11: A Behavioral Dataset for Windows 11 Ransomware Detection and Family Classification"
+authors:
+  - family-names: "PLACEHOLDER_FAMILY_NAME"
+    given-names: "PLACEHOLDER_GIVEN_NAME"
+    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+    # affiliation: "PLACEHOLDER_INSTITUTION"
+date-released: "2025-01-01"
+version: "2.0"
+repository-code: "https://github.com/PLACEHOLDER_USERNAME/RanDe-W11"
+license: CC-BY-4.0
+keywords:
+  - ransomware
+  - behavioral analysis
+  - malware dataset
+  - windows 11
+  - machine learning
+  - cybersecurity
+  - any.run
+  - dynamic analysis
+abstract: >
+  RanDe-W11 is a balanced behavioral dataset of 2,000 Windows executable samples
+  (1,000 ransomware across 30 families, 1,000 benign) dynamically analyzed using the
+  Any.run interactive sandbox in a Windows 11 environment. The dataset comprises
+  103 behavioral features organized into nine domains and is intended for
+  machine learning-based ransomware detection and family classification research.
