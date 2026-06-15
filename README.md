@@ -151,8 +151,10 @@ RanDe-W11/
 │   ├── fig13_radar.png
 │   ├── fig14_mc_bar.png
 │   └── fig15_group_ablation.png
-├── notebook/
-│   └── RanDe_W11_demo.ipynb        # Demo notebook: 3 models for binary classification
+├── preprocessings/
+│   ├── 01_encode_boolean_features.py
+│   ├── 02_leakage_verification.py
+│   └── 03_scale_and_split.py       
 ├── LICENSE
 ├── CITATION.cff
 └── README.md
@@ -175,9 +177,9 @@ If you use RanDe-W11 in your research, please cite:
 ```bibtex
 @article{PLACEHOLDER_AUTHOR_2025_rande_w11,
   title   = {RanDe-W11: A Behavioral Dataset for Windows 11 Ransomware Detection and Family Classification},
-  author  = {PLACEHOLDER_AUTHOR},
-  journal = {PLACEHOLDER_VENUE},
-  year    = {2025},
+  author  = {Jannatul Ferdous, Rafiqul Islam and Md Zahidul Islam},
+  journal = {IEEE Open Journal of the Computer Society},
+  year    = {2026},
   note    = {Upon request dataset available at: https://drive.google.com/drive/folders/1lEmZYgFk43Md_K1tdinoCADX-3XHLIVt?usp=sharing}
 }
 ```
