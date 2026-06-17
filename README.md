@@ -1,13 +1,14 @@
-# RanDe: A Behavioral Dataset for Enhancing Ransomware Detection
+<h1 align="center">RanDe: A Behavioral Dataset for Enhancing Ransomware Detection</h1>
 
-<!-- Badges — fill in once repo/paper links are live -->
-![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
-![Samples](https://img.shields.io/badge/Samples-2%2C000-blue)
-![Families](https://img.shields.io/badge/Families-30-red)
-![Features](https://img.shields.io/badge/Features-103-green)
-![Platform](https://img.shields.io/badge/Platform-Windows%2011-informational)
-<!-- ![Paper](https://img.shields.io/badge/Paper-IEEE%20Access-orange) — add when published -->
-<!-- ![DOI](https://zenodo.org/badge/DOI/PLACEHOLDER.svg) — add when DOI assigned -->
+<p align="center">
+  <img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="License"/>
+  <img src="https://img.shields.io/badge/Samples-2%2C000-blue" alt="Samples"/>
+  <img src="https://img.shields.io/badge/Families-30-red" alt="Families"/>
+  <img src="https://img.shields.io/badge/Features-103-green" alt="Features"/>
+  <img src="https://img.shields.io/badge/Platform-Windows%2011-informational" alt="Platform"/>
+  <!-- <img src="https://img.shields.io/badge/Paper-IEEE%20Access-orange" alt="Paper"/> — add when published -->
+  <!-- <img src="https://zenodo.org/badge/DOI/PLACEHOLDER.svg" alt="DOI"/> — add when DOI assigned -->
+</p>
 <p align="center">
   <b>Jannatul Ferdous, Rafiqul Islam, Arash Mahboubi and Md Zahidul Islam</b><br/>
   Charles Sturt University, NSW, Australia
