@@ -8,7 +8,43 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows%2011-informational)
 <!-- ![Paper](https://img.shields.io/badge/Paper-IEEE%20Access-orange) — add when published -->
 <!-- ![DOI](https://zenodo.org/badge/DOI/PLACEHOLDER.svg) — add when DOI assigned -->
+---
+## Overview
 
+**RanDe-W11** is a balanced behavioral dataset of Windows executable samples, designed for
+machine learning-based ransomware research on modern Windows 11 environments. It addresses
+a critical gap in existing datasets, which predominantly target Windows 7/10 and rely on
+legacy Cuckoo-based infrastructure.
+
+Each sample was dynamically analyzed using [Any.run](https://any.run) interactive sandbox,
+producing rich behavioral telemetry across nine feature domains: file system activity,
+registry operations, network behavior, process dynamics, API/DLL usage, runtime event
+sequences, DNS reputation profiling, and per-process behavioral flags.
+
+<p align="center">
+  <img src="figures/Rande-Workflow.jpg" width="720" alt="RanDe Dataset Construction, Validation, and Release Workflow"/>
+</p>
+
+| Property | Value |
+|---|---|
+| Total Samples | 2,000 |
+| Ransomware Samples | 1,000 |
+| Benign Samples | 1,000 |
+| Ransomware Families | 30 |
+| Total Classes (multiclass) | 31 (30 families + Benign) |
+| Features | 103 behavioral features |
+| Target Platform | Windows 11 |
+| Sandbox | Any.run |
+| Label Format | `ground_truth_family`, `ground_truth_binary` |
+
+The key contributions of this dataset are as follows:
+
+1. **Windows 11 native behavioral dataset** — 2,000 balanced benign and ransomware executions across 30 families and 103 features spanning nine semantic domains, constructed natively on Windows 11 (22H2, 64-bit) using the ANY.RUN interactive cloud sandbox.
+2. **Reproducible dynamic telemetry pipeline** — a feature engineering protocol that converts ANY.RUN sandbox JSON telemetry into a structured ML-ready matrix for binary and family-level ransomware benchmarking, reducing dependence on legacy Cuckoo-based pipelines.
+3. **Two-stage anti-leakage verification** — sandbox verdict fields removed, label columns excluded by construction, and a secondary keyword audit applied to reduce target-proxy contamination and improve benchmark trustworthiness.
+4. **Multi-layer behavioral validation** — UMAP cluster validation, multi-domain radar fingerprinting, and SHAP-based interpretability confirm that classifiers trained on RanDe align with genuine ransomware behavioral signals rather than sampling artifacts.
+5. **Feature-domain ablation** — leave-one-domain-out analysis identifies that filesystem, network, and registry domains provide the most discriminative signals, demonstrating that information density rather than feature count guides domain value.
+6. **Reproducible ML benchmark** — nine classifiers under unified 5-fold stratified CV deliver XGBoost binary F1 = 99.85% and LightGBM 31-way Macro-F1 = 88.71% as community reference results.
 ---
 
 ## Overview
