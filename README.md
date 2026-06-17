@@ -16,14 +16,14 @@ machine learning-based ransomware research on modern Windows 11 environments. It
 a critical gap in existing datasets, which predominantly target Windows 7/10 and rely on
 legacy Cuckoo-based infrastructure.
 
+<p align="center">
+  <img src="figures/Rande-Workflow.jpg" width="720" alt="RanDe Dataset Construction, Validation, and Release Workflow"/>
+</p>
+
 Each sample was dynamically analyzed using [Any.run](https://any.run) interactive sandbox,
 producing rich behavioral telemetry across nine feature domains: file system activity,
 registry operations, network behavior, process dynamics, API/DLL usage, runtime event
 sequences, DNS reputation profiling, and per-process behavioral flags.
-
-<p align="center">
-  <img src="figures/Rande-Workflow.jpg" width="720" alt="RanDe Dataset Construction, Validation, and Release Workflow"/>
-</p>
 
 | Property | Value |
 |---|---|
