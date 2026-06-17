@@ -147,7 +147,7 @@ The dataset was validated using a unified 5-fold stratified cross-validation pro
   <img src="figures/fig15_group_ablation.png" width="340" alt="Feature-Domain Ablation"/>
 </p>
 
-*From left to right: RanDe workflow, binary confusion matrix, per-family F1 scores, learning curve, UMAP projection, behavioral-domain radar, Monte Carlo comparison, and feature-domain ablation.*
+*From left to right: RanDe workflow, binary confusion matrix, per-family F1 scores, learning curve, UMAP projection, behavioral-domain radar, Multiclass Model Comparison Bar, and feature-domain ablation.*
 
 ---
 
