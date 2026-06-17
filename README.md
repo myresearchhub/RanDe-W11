@@ -1,4 +1,4 @@
-# RanDe-W11: A Ransomware Behavioral Dataset for Windows 11
+# RanDe: A Behavioral Dataset for Enhancing Ransomware Detection
 
 <!-- Badges — fill in once repo/paper links are live -->
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
@@ -11,7 +11,7 @@
 ---
 ## Overview
 
-**RanDe-W11** is a balanced behavioral dataset of Windows executable samples, designed for
+**RanDe** is a balanced behavioral dataset of Windows executable samples, designed for
 machine learning-based ransomware research on modern Windows 11 environments. It addresses
 a critical gap in existing datasets, which predominantly target Windows 7/10 and rely on
 legacy Cuckoo-based infrastructure.
@@ -70,7 +70,7 @@ Families were selected based on two criteria: (1) frequency and impact documente
 
 ## Feature Domains
 
-RanDe-W11 organizes its 103 features into nine behavioral domains extracted from Any.run sandbox reports. The indexed naming convention (e.g., `runtime_0_event_count` ... `runtime_19_event_count`) reflects **ordered sandbox observations** — not derived labels. See [`dataset/FEATURE_GUIDE.md`](dataset/FEATURE_GUIDE.md) for the full explanation.
+RanDe organizes its 103 features into nine behavioral domains extracted from Any.run sandbox reports. The indexed naming convention (e.g., `runtime_0_event_count` ... `runtime_19_event_count`) reflects **ordered sandbox observations** — not derived labels. See [`dataset/FEATURE_GUIDE.md`](dataset/FEATURE_GUIDE.md) for the full explanation.
 
 | Domain | Features | Description |
 |---|---|---|
@@ -188,15 +188,15 @@ The file [`dataset/sample_preview.csv`](dataset/sample_preview.csv) contains 10 
 
 ## Citation
 
-If you use RanDe-W11 in your research, please cite:
+If you use RanDe in your research, please cite:
 
 ```bibtex
-@article{Jannatul Ferdous_2026_rande_w11,
-  title   = {RanDe-W11: A Behavioral Dataset for Windows 11 Ransomware Detection and Family Classification},
+@article{Ferdous_2026_rande,
+  title   = {RanDe: A Behavioral Dataset for Enhancing Ransomware Detection},
   author  = {Jannatul Ferdous, Rafiqul Islam and Md Zahidul Islam},
   journal = {IEEE Open Journal of the Computer Society},
   year    = {2026},
-  note    = {Upon request dataset available at: https://drive.google.com/drive/folders/1lEmZYgFk43Md_K1tdinoCADX-3XHLIVt?usp=sharing}
+  note    = {Upon request dataset available at: https://drive.google.com/drive/folders/1lEmZYgFk43Md_K1tdinoCADX-3XHLIVt?usp=sharing }
 }
 ```
 
