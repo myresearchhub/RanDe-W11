@@ -8,6 +8,10 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows%2011-informational)
 <!-- ![Paper](https://img.shields.io/badge/Paper-IEEE%20Access-orange) — add when published -->
 <!-- ![DOI](https://zenodo.org/badge/DOI/PLACEHOLDER.svg) — add when DOI assigned -->
+<p align="center">
+  <b>Jannatul Ferdous, Rafiqul Islam, Arash Mahboubi and Md Zahidul Islam</b><br/>
+  Charles Sturt University, NSW, Australia
+</p>
 ---
 ## Overview
 
