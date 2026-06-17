@@ -47,26 +47,6 @@ The key contributions of this dataset are as follows:
 6. **Reproducible ML benchmark** — nine classifiers under unified 5-fold stratified CV deliver XGBoost binary F1 = 99.85% and LightGBM 31-way Macro-F1 = 88.71% as community reference results.
 ---
 
-## Overview
-
-**RanDe-W11** is a balanced behavioral dataset of Windows executable samples, designed for machine learning-based ransomware research on modern Windows 11 environments. It addresses a critical gap in existing datasets, which predominantly target Windows 7/10 and rely on legacy Cuckoo-based infrastructure.
-
-Each sample was dynamically analyzed using [Any.run](https://any.run) interactive sandbox, producing rich behavioral telemetry across nine feature domains: file system activity, registry operations, network behavior, process dynamics, API/DLL usage, runtime event sequences, DNS reputation profiling, and per-process behavioral flags.
-
-| Property | Value |
-|---|---|
-| Total Samples | 2,000 |
-| Ransomware Samples | 1,000 |
-| Benign Samples | 1,000 |
-| Ransomware Families | 30 |
-| Total Classes (multiclass) | 31 (30 families + Benign) |
-| Features | 103 behavioral features |
-| Target Platform | Windows 11 |
-| Sandbox | Any.run |
-| Label Format | `ground_truth_family`, `ground_truth_binary` |
-
----
-
 ## Ransomware Families
 
 Families were selected based on two criteria: (1) frequency and impact documented across six years of threat intelligence reports (2019–2024), and (2) confirmation by at least two independent cybersecurity firm reports.
